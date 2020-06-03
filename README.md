@@ -1,8 +1,8 @@
-# CamPhish
+# CamHack
 Grab cam shots from target's phone front camera or PC webcam just sending a link.
 ![cheese](https://1.bp.blogspot.com/-qfrM2I6_SNs/W2Z-mnVJPdI/AAAAAAAAAD0/LSEYXNbzBjAf-7R7hPg7Z2jo0uTIKRtMgCPcBGAYYCw/s1600/1530090346322.jpg)
 
-# What is CamPhish?
+# What is CamHack?
 <p>CamHack is a Tool to take cam shots of target's phone fornt camera or PC webcam. CamHack Hosts a fake website on in built PHP server and uses ngrok & serveo to generate a link which we will forward to the target, which can be used on over internet. website asks for camera permission and if the target allows it, this tool grab camshots of target's device</p>
 
 ## Features
@@ -32,7 +32,7 @@ apt-get -y install php openssh git wget
 ## Installing (Kali Linux/Termux):
 
 ```
-git clone https://github.com/techchipnet/CamPhish
+git clone https://github.com/tvp620/CamHack
 cd CamHack
 bash camhack.sh
 ```
